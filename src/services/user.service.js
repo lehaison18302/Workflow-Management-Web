@@ -1,7 +1,7 @@
 const { BadRequestError } = require("../core/error.response");
 const {Users} = require("../models");
 
-const getAllUser = async () => {
+const getAllUser = async () => { /*lay thong tin user tu csdl*/
   try {
     const users = await Users.findAll(); 
     return users;
