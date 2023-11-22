@@ -6,6 +6,5 @@ const rootRouter = require("express").Router();
 
 rootRouter.use(foodRouter);
 rootRouter.use(userRouter);
-roo
 
 module.exports = rootRouter;
